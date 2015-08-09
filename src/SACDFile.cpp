@@ -19,8 +19,8 @@
 
 #include "platform/util/timeutils.h"
 #include "platform/threads/mutex.h"
-#include "kodi/libXBMC_addon.h"
-#include "kodi/IFileTypes.h"
+#include "libXBMC_addon.h"
+#include "IFileTypes.h"
 #include <map>
 #include <sstream>
 #include <fcntl.h>
@@ -39,7 +39,7 @@ extern "C" {
 #include "scarletbook_read.h"
 #include "scarletbook_output.h"
 #include "scarletbook_print.h"
-#include "kodi/kodi_vfs_dll.h"
+#include "kodi_vfs_dll.h"
 
 struct sacd_input_s
 {
